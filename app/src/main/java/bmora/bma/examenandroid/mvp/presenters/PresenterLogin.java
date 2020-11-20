@@ -1,11 +1,11 @@
-package bmora.bma.examenandroid.login.presenters;
+package bmora.bma.examenandroid.mvp.presenters;
 
 import android.content.Context;
 
-import bmora.bma.examenandroid.login.interfaces.LoginModelInterface;
-import bmora.bma.examenandroid.login.interfaces.MainActivityInterface;
-import bmora.bma.examenandroid.login.interfaces.PresenterLoginInterface;
-import bmora.bma.examenandroid.login.model.LoginModel;
+import bmora.bma.examenandroid.mvp.interfaces.LoginModelInterface;
+import bmora.bma.examenandroid.mvp.interfaces.MainActivityInterface;
+import bmora.bma.examenandroid.mvp.interfaces.PresenterLoginInterface;
+import bmora.bma.examenandroid.mvp.model.LoginModel;
 
 public class PresenterLogin implements PresenterLoginInterface {
     private MainActivityInterface view;

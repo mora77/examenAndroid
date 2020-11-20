@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_for_no_account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_ToTopOf="parent"
+        android:layout_marginBottom="@dimen/common_dimen_32dp"
+        style="@style/CommonTextView"
+        />
+
+    <TextView
+        android:id="@+id/tv_first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_for_no_account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_ToBottomOf="@+id/tv_id"
+        android:layout_marginBottom="@dimen/common_dimen_32dp"
+        style="@style/CommonTextView"
+        />
+
+    <TextView
+        android:id="@+id/tv_last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_for_no_account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_ToBottomOf="@+id/tv_first_name"
+        android:layout_marginBottom="@dimen/common_dimen_32dp"
+        style="@style/CommonTextView"
+        />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_for_no_account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_ToBottomOf="@+id/tv_last_name"
+        android:layout_marginBottom="@dimen/common_dimen_32dp"
+        style="@style/CommonTextView"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

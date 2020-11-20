@@ -1,9 +1,10 @@
-package bmora.bma.examenandroid.login.views;
+package bmora.bma.examenandroid.mvp.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.Window;
@@ -14,9 +15,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import bmora.bma.examenandroid.R;
-import bmora.bma.examenandroid.login.interfaces.MainActivityInterface;
-import bmora.bma.examenandroid.login.interfaces.PresenterLoginInterface;
-import bmora.bma.examenandroid.login.presenters.PresenterLogin;
+import bmora.bma.examenandroid.mvp.interfaces.MainActivityInterface;
+import bmora.bma.examenandroid.mvp.interfaces.PresenterLoginInterface;
+import bmora.bma.examenandroid.mvp.presenters.PresenterLogin;
 
 public class MainActivity extends AppCompatActivity implements MainActivityInterface {
     private EditText etEmail, editTextPass;
@@ -140,7 +141,8 @@ public class MainActivity extends AppCompatActivity implements MainActivityInter
 
     @Override
     public void successLogin() {
-
+        Intent intent= new Intent(this,UsersList.class);
+        startActivity(intent);
     }
 
     @Override

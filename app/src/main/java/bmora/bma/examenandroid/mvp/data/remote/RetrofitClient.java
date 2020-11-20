@@ -1,4 +1,4 @@
-package bmora.bma.examenandroid.login.data.remote;
+package bmora.bma.examenandroid.mvp.data.remote;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

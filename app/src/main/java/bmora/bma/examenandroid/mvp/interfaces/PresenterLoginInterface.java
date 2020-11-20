@@ -1,4 +1,4 @@
-package bmora.bma.examenandroid.login.interfaces;
+package bmora.bma.examenandroid.mvp.interfaces;
 
 import android.content.Context;
 

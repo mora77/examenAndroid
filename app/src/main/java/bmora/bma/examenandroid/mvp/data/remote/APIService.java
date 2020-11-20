@@ -1,7 +1,7 @@
-package bmora.bma.examenandroid.login.data.remote;
+package bmora.bma.examenandroid.mvp.data.remote;
 
-import bmora.bma.examenandroid.login.data.models.LoginPost;
-import bmora.bma.examenandroid.login.data.models.SignInPost;
+import bmora.bma.examenandroid.mvp.data.models.LoginPost;
+import bmora.bma.examenandroid.mvp.data.models.SignInPost;
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;

@@ -1,4 +1,4 @@
-package bmora.bma.examenandroid.login.interfaces;
+package bmora.bma.examenandroid.mvp.interfaces;
 
 public interface MainActivityInterface {
     void showError(String error);
