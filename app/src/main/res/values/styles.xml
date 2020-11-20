@@ -1,11 +1,73 @@
 <resources>
 
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">@dimen/common_dimen_56dp</item>
+        <item name="android:paddingStart">@dimen/btn_primary_padding_sides</item>
+        <item name="android:paddingEnd">@dimen/btn_primary_padding_sides</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/btn_primary_text_size</item>
+        <item name="backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+    </style>
+
+    <style name="EditTextEmail">
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:longClickable">false</item>
+        <item name="android:background">@color/colorGreenLight</item>
+        <item name="android:textColor">@color/blackTextColor</item>
+        <item name="android:textColorHint">@color/blackTextColor</item>
+        <item name="android:textSize">@dimen/common_dimen_16dp</item>
+        <item name="android:layout_marginStart">@dimen/common_dimen_30dp</item>
+        <item name="android:layout_marginEnd">@dimen/common_dimen_30dp</item>
+    </style>
+
+    <style name="EditTextPass">
+        <item name="android:inputType">textPassword</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:longClickable">false</item>
+        <item name="android:background">@color/colorGreenLight</item>
+        <item name="android:textColor">@color/blackTextColor</item>
+        <item name="android:textColorHint">@color/blackTextColor</item>
+        <item name="android:textSize">@dimen/common_dimen_16dp</item>
+        <item name="android:layout_marginStart">@dimen/common_dimen_30dp</item>
+        <item name="android:layout_marginEnd">@dimen/common_dimen_30dp</item>
+    </style>
+
+    <style name="TextViewWelcome">
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/common_dimen_211dp</item>
+        <item name="android:textSize">@dimen/common_dimen_56dp</item>
+    </style>
+
+    <style name="CommonTextView">
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/common_dimen_14dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
     </style>
 
 </resources>

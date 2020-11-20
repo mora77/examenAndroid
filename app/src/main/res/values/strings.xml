@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">ExamenAndroid</string>
+    <string name="text_for_email">Correo electrónico</string>
+    <string name="text_for_pass">Contraseña</string>
+    <string name="text_for_login">Iniciar Sesión</string>
+    <string name="text_for_welcome">Bienvenido</string>
+    <string name="text_for_no_account">¿No tienes una cuenta?\nRegistrate</string>
+    <string name="text_for_general_error">Lo sentimos, ha ocurrido un error</string>
+    <string name="text_for_error">Error</string>
+    <string name="text_for_successFull">Hecho</string>
+    <string name="text_for_bad_credentials">Credenciales incorrectas</string>
+    <string name="text_for_conection_error">Porfavor revisa tu conexión</string>
+    <string name="text_sign_up_error">No se pudo registrar</string>
+    <string name="text_for_sing_up_title">Registro</string>
+    <string name="text_for_error_to_register">Error al registrar</string>
+    <string name="text_for_ok">OK</string>
+    <string name="text_for_button_sign_up">Registrar</string>
+    <string name="text_for_cancel">cancelar</string>
+    <string name="text_for_sign_in_succesfull">¡Registro exitoso!</string>
+
 </resources>
